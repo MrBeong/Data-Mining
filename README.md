@@ -1,2 +1,19 @@
-# Data-Mining
-Linear regression and model diagnostics study notes.
+# Data Mining
+
+데이터마이닝 수업에서 선형회귀와 모형 진단을 공부한 기록입니다.
+교안과 제공된 Python 실습 노트북을 함께 봤습니다.
+
+| 주제 | 학습·검토 내용 |
+| --- | --- |
+| 단순·다중 선형회귀 | OLS, 회귀계수, 절편, 예측 |
+| 평가 | MAE·MSE·R²와 지표 단위 |
+| 모형 진단 | 잔차–적합값, Q–Q plot, 오차의 순서 의존성 |
+| 다중공선성 | VIF와 계수 해석 |
+| 구현 비교 | scikit-learn과 statsmodels의 절편 설정 차이 |
+| 데이터 처리 | 결측·중복, train/test 분할, 학습 세트 기준 변환 |
+
+수업 실습 자료의 예제로 연봉 단순회귀, 와인 품질 다중회귀 등이 있습니다.
+실습 원본에는 statsmodels OLS에 상수열을 넣지 않은 예제가 있어, 기본 절편을 학습하는 scikit-learn 결과와 바로 비교할 수 없다는 차이를 학습 정리에 기록했습니다.
+
+관련 라이브러리: pandas, scikit-learn, statsmodels, Matplotlib.
+수업에서 제공한 노트북과 데이터는 이 저장소에 포함하지 않았습니다.
